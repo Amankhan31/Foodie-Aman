@@ -22,7 +22,7 @@ html {
 }
 /* 🌆 Global Background Image */
 body {
-    background: url("img/hero3.jpg") no-repeat center center fixed;
+    background: url("img/mainbanner.jpeg") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -1303,7 +1303,7 @@ button.white {
 /* Blog page */
 
 #page-header.blog-header {
-  background: linear-gradient(135deg, rgba(255, 236, 210, 0.9), rgba(252, 182, 159, 0.9)),
+  background: linear-gradient(),
               url("img/mainbanner.jpeg") center/cover no-repeat;
   min-height: 320px;
   display: flex;
@@ -1351,7 +1351,7 @@ button.white {
   font-weight: 800;
   letter-spacing: 2px;
   margin-bottom: 4px;
-  color: #1a1a1a;
+  color: #fce328;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -1362,7 +1362,7 @@ button.white {
   display: block;
   width: 70px;
   height: 4px;
-  background: #ff6a3d;
+  background: #38bdf8;
   margin: 15px auto 0;
   border-radius: 2px;
 }
@@ -1373,7 +1373,7 @@ button.white {
   line-height: 1.8;
   max-width: 720px;
   margin: 0 auto;
-  color: #620404;
+  color: #e0f2fe;
   opacity: 0;
   animation: fadeIn 1.5s ease forwards 0.5s;
   z-index: 1;
@@ -1382,9 +1382,9 @@ button.white {
 /* Blog Section */
 #blog {
   padding: 100px 8%;
-  background: #f9fafb;
+  background: rgba(59, 130, 246, 0.05);
+  backdrop-filter: blur(4px);
 }
-
 /* Blog Box Layout */
 #blog .blog-box {
   display: flex;
@@ -1531,4 +1531,5 @@ button.white {
 
 /* ========================================================ABOUT PAGE======================================================== */
 /* About page */
+
 
