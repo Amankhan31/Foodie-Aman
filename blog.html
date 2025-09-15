@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatib1e" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie Aman</title>
+
+  <!-- Bootstrap + FontAwesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Cursor Dot */
+    .cursor-dot {
+      width: 10px;
+      height: 10px;
+      background: #050d0f;
+      border-radius: 50%;
+      position: absolute;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 10px rgba(7, 12, 13, 0.8);
+      z-index: 9999;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <section class="header">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Left: Logo -->
+      <a href="#" class="logo">
+        <img src="img/newlogo.png" class="logo1" alt="Logo" />
+      </a>
+
+      <!-- Center: Navbar -->
+      <ul class="navbar d-flex list-unstyled mb-0">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+      </ul>
+
+      <!-- Right: Facebook -->
+      <a href="https://www.facebook.com/Aman.aman.khan111" class="social-link" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section id="page-header" class="blog-header text-center py-5">
+    <h2 class="title">#EXPLORE MORE</h2>
+    <p class="desc">
+      Dive into our flavorful journey — explore unique case studies about restaurants,
+      food trends, and delicious experiences that bring people together.
+      Perfect for every foodie who loves to discover new tastes and dining stories.
+    </p>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="container py-5">
+    <div class="blog-box d-flex mb-5">
+      <div class="blog-img me-4">
+        <img src="img/hotel1.jpg" alt="">
+      </div>
+      <div class="blog-details">
+        <h4>Hotel Rambhag Palace, Jaipur</h4>
+        <p>Rambagh Palace was originally built in 1835 as a garden house and later expanded by Maharaja Sawai
+          Man Singh II into his main royal residence.</p>
+        <p>It showcases a mix of Rajput and Mughal architectural styles, with ornate marble work, cupolas,
+          carved stone jalis, chattris and beautifully landscaped Mughal gardens.</p>
+        <a href="https://surli.cc/plfbnp">Click on More Details</a>
+      </div>
+    </div>
+
+    <div class="blog-box d-flex mb-5">
+      <div class="blog-img me-4">
+        <img src="img/hotel22.jpg" alt="">
+      </div>
+      <div class="blog-details">
+        <h4>Hotel Swaroop Vilas , Udaipur</h4>
+        <p>Hotel Swaroop Vilas in Udaipur is a boutique heritage-style property overlooking the beautiful
+          Swaroop Sagar Lake. 🏨✨</p>
+        <p>It features traditional Rajasthani architecture, elegant interiors, and a rooftop restaurant with lake
+          views. Guests enjoy modern comforts like a swimming pool, spa, and multi-cuisine dining while
+          staying close to attractions like Fateh Sagar Lake and City Palace. 🌅</p>
+        <a href="https://swaroopvilas.com/">Click on More Details</a>
+      </div>
+    </div>
+
+    <div class="blog-box d-flex mb-5">
+      <div class="blog-img me-4">
+        <img src="img/hotel3.jpg" alt="">
+      </div>
+      <div class="blog-details">
+        <h4>Umaid Bhawan Palace, Jodhpur</h4>
+        <p>Construction started in 1929 under Maharaja Umaid Singh and was completed in 1943.</p>
+        <p>The palace was built partly to provide employment during famine, giving thousands of people work for
+          many years. Designed by British architect Henry Vaughan Lanchester, it mixes Art Deco, Renaissance, and
+          Indo-Saracenic style elements.</p>
+        <a href="https://www.tajhotels.com/en-in/hotels/umaid-bhawan-palace-jodhpur">Click on More Details</a>
+      </div>
+    </div>
+
+    <div class="blog-box d-flex mb-5">
+      <div class="blog-img me-4">
+        <img src="img/hotel5.jpg" alt="">
+      </div>
+      <div class="blog-details">
+        <h4>Shahpura House, Jaipur</h4>
+        <p>Shahpura House in Jaipur is a heritage boutique hotel that was once the royal residence of the
+          Shahpura rulers. 🏰✨</p>
+        <p>It features stunning Rajput and Mughal architecture, frescoed walls, and traditional courtyards.
+          Guests can enjoy spacious rooms, fine dining, and warm Rajasthani hospitality, all just minutes away
+          from Jaipur’s major attractions. 🌸</p>
+        <a href="https://shahpura.com/hotel/shahpura-house/">Click on More Details</a>
+      </div>
+    </div>
+
+    <div class="blog-box d-flex mb-5">
+      <div class="blog-img me-4">
+        <img src="img/hotel5.jpg" alt="">
+      </div>
+      <div class="blog-details">
+        <h4>Taj Lake Palace Udaipur</h4>
+        <p>Royalty meets fairy tale at the Taj Lake Palace Udaipur, seemingly poised to grace the waters of Lake
+          Pichola. Built between 1743-1746 by Maharana Jagat Singh II, it once served as a summer haven for the
+          Mewar Royal family. In 1963, under the vision of Maharana Bhagwat Singh Mewar, it was transformed into
+          a luxury heritage hotel, epitomizing lavish living.</p>
+        <a href="https://www.tajhotels.com/en-in/hotels/taj-lake-palace-udaipur">Click on More Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white py-4">
+    <div class="footer-container container d-flex justify-content-between">
+      <div class="footer-col">
+        <h3>About Us</h3>
+        <p>We bring you the authentic flavors of Rajasthan with a modern twist. From street food to royal
+          thalis, discover the beauty of culture through taste.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Home</a></li>
+          <li><a href="#" class="text-white">Street Food</a></li>
+          <li><a href="#" class="text-white">Royal Thalis</a></li>
+          <li><a href="#" class="text-white">Culture</a></li>
+          <li><a href="#" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/Aman.aman.khan111" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cursor Dot -->
+  <div class="cursor-dot"></div>
+
+  <!-- JS -->
+  <script>
+    const cursorDot = document.querySelector(".cursor-dot");
+    let mouseX = 0, mouseY = 0;
+    let dotX = 0, dotY = 0;
+
+    document.addEventListener("mousemove", (e) => {
+      mouseX = e.pageX;
+      mouseY = e.pageY;
+    });
+
+    function animate() {
+      dotX += (mouseX - dotX) * 0.15;
+      dotY += (mouseY - dotY) * 0.15;
+      cursorDot.style.left = dotX + "px";
+      cursorDot.style.top = dotY + "px";
+      requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+
+</body>
+</html>
